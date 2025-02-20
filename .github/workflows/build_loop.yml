@@ -285,6 +285,7 @@ jobs:
           future_carbs_4h \
           watch_title \
           profiles \
+          negative_insulin \
           basal_lock 
 
           # the final customization listed above CANNOT have a continuation character
