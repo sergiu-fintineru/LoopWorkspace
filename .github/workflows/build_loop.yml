@@ -293,8 +293,8 @@ jobs:
           watch_title \
           profiles \
           negative_insulin \
-          bolus_display \
-          g7_scan \
+          live_activity \
+          meal_days \
           basal_lock 
 
           # the final customization listed above CANNOT have a continuation character
