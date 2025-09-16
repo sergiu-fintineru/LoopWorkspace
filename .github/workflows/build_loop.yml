@@ -294,7 +294,7 @@ jobs:
           watch_title \
           profiles \
           negative_insulin \
-          # live_activity \
+          live_activity \
           meal_days \
           2hlollipop \
           basal_lock 
