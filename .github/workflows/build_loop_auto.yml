@@ -228,6 +228,8 @@ jobs:
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
 
+          # Submodule xxxxx patches:
+          
           # Add patches for customization of additional submodules by following the templates above, 
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
           # Several patches may be added per submodule.
@@ -245,10 +247,10 @@ jobs:
           2hlollipop \
           basal_lock \
           xdrip_cgm
-                    
+          
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
-
+          
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
